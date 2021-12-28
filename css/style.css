@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(../img/bg1.jpg);
+    font-style: italic;
+    color: red;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    text-align: center;
+    flex-wrap: ;
+}
+
+h1{
+    display: none;
+    color: rgb(248, 103, 7);
+    padding: 20px;
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+.col-sm-6.col-xm-12:hover h1 {
+    display: block;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0 1rem;
+} 
+.countdown-box{
+    padding: 2rem;
+    color: rgb(5, 78, 15);
+    font-weight: 10px;
+    font-style: normal;
+    line-height: normal;
+}
